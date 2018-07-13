@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 30px
+
+    
+    
+}
+.wrapper {
+     max-width: 1000px;
+       margin: 0 auto;
+    color: green;
+}
+
+.row:after {
+    visibility: hidden;
+    font-size: 0.1em;
+    display: block;
+    line-height: 0;
+    height: 0.1px;
+    content: " ";
+    clear: both;
+}
+
+.header {
+    margin-bottom: 10px;
+     background-image: url("../img/coffeebeans.png");
+    background-size: cover;
+    display: flex;
+     height: 200px;
+
+}
+
+.inner-header {
+    max-width: 1000px;
+       margin: 0 auto;
+    display:flex;
+    height: 200px;
+    flex-direction:column;
+}
+.sitename{
+     text-shadow: 10px 5px 10px black, 0 0 1em grey;
+      font-size: 60px;
+    align-self:center;
+    color: white;
+  position: relative;
+  top: -90px;
+
+}
+.slogan{
+    color: white;
+    position: relative;
+    font-size: 25px;
+   left:550px;
+    top: -220px;
+}
+
+.content {
+    width: 100%;
+    float: left;
+
+}
+
+.inner-content {
+    background: #b28282;
+    min-height: 500px;
+
+}
+
+
+
+
+
+.footer {
+    max-width: 1000px;
+       margin: 0 auto;
+    margin-top: 10px;
+}
+
+.inner-foter {
+      margin: 0 auto;
+    background: #b28282;
+    height: 200px;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+.menu-main {
+  list-style: none;
+  margin: 20px 0 5px;
+  padding: 25px 0 5px;
+  text-align: center;
+   position: relative;
+  top: -300px;
+  
+ 
+}
+.menu-main li {display: inline-block;}
+.menu-main li:after {
+  content: "|";
+  color: #606060;
+  display: inline-block;
+  vertical-align:top;
+}
+.menu-main li:last-child:after {content: none;}
+.menu-main a {
+  text-decoration: none;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  letter-spacing: 2px;
+  position: relative;
+  padding-bottom: 20px;
+  margin: 0 34px 0 30px;
+  font-size: 17px;
+  text-transform: uppercase;
+  display: inline-block;
+  transition: color .2s;
+}
+.menu-main a, .menu-main a:visited {color: white;
+}
+.menu-main a.current, .menu-main a:hover{color: #feb386;
+ 
+}
+.menu-main a:before,
+.menu-main a:after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  top: auto;
+  right: 50%;
+  bottom: -5px;
+  left: 50%;
+  background: #feb386;
+  transition: .8s;
+}
+.menu-main a:hover:before, .menu-main .current:before {left: 0;}
+.menu-main a:hover:after, .menu-main .current:after {right: 0;}   
+@media (max-width: 600px) {
+.menu-main {padding-top: 0;}
+.menu-main li {display: block;}
+.menu-main li:after {content: none;}
+.menu-main a {
+  padding: 25px 0 20px; 
+  margin: 0 30px;
+}
+}
+.bxslider{
+    width: 200px;
+    height: 400px;
+}
