@@ -150,4 +150,6 @@ h2 {
   margin: 0 30px;
 }
 }
-@
+.connection{
+    display: block;
+}
