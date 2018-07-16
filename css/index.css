@@ -1,15 +1,11 @@
-* {
-    box-sizing: border-box;
-}
-
 body {
     font-size: 30px;
-    
 
 }
+
 .wrapper {
-     max-width: 1000px;
-       margin: 0 auto;
+    max-width: 1000px;
+    margin: 0 auto;
     color: black;
 }
 
@@ -25,131 +21,157 @@ body {
 
 .header {
     margin-bottom: 10px;
-     background-image: url("../img/coffeebeans.png");
+    background-image: url("../img/coffeebeans.png");
     background-size: cover;
     display: flex;
-     height: 200px;
+    height: 200px;
 
 }
 
 .inner-header {
     max-width: 1000px;
-       margin: 0 auto;
-    display:flex;
+    margin: 0 auto;
+    display: flex;
     height: 200px;
-    flex-direction:column;
+    flex-direction: column;
 }
-.sitename{
-     text-shadow: 10px 5px 10px black, 0 0 1em grey;
-      font-size: 60px;
-    align-self:center;
-    color: white;
-  position: relative;
-  top: -90px;
 
+.sitename {
+    text-shadow: 10px 5px 10px black, 0 0 1em grey;
+    font-size: 60px;
+    align-self: center;
+    color: white;
+    position: relative;
+    top: -90px;
 }
-.slogan{
+
+.slogan {
     color: white;
     position: relative;
     font-size: 25px;
-   left:550px;
+    left: 550px;
     top: -220px;
 }
 
 .content {
     width: 100%;
-
 }
 
 .inner-content {
-background-color:#ffeee0;
+    background-color: #ffeee0;
 }
-
 
 .footer {
     max-width: 1000px;
-       margin: 0 auto;
+    margin: 0 auto;
     margin-top: 10px;
 }
-.inner-foter {
-      margin: 0 auto;
-    background:#ffeee0 ;
-    height: 100px;
 
+.inner-foter {
+    margin: 0 auto;
+    background: #ffeee0;
+    height: 100px;
 }
+
 h2 {
     text-shadow: 5px 5px 10px black, 0 0 1em grey;
-      font-size: 50px;
-    align-self:center;
+    font-size: 50px;
+    align-self: center;
     color: white;
-     text-align: center;
-     -webkit-text-stroke: 1px black;
+    text-align: center;
+    -webkit-text-stroke: 1px black;
 }
-
-
-    
-
 
 .menu-main {
-  list-style: none;
-  margin: 20px 0 5px;
-  padding: 25px 0 5px;
-  text-align: center;
-   position: relative;
-  top: -300px;
-  
- 
+    list-style: none;
+    margin: 20px 0 5px;
+    padding: 25px 0 5px;
+    text-align: center;
+    position: relative;
+    top: -300px;
+
 }
-.menu-main li {display: inline-block;}
+
+.menu-main li {
+    display: inline-block;
+}
+
 .menu-main li:after {
-  content: "|";
-  color: #606060;
-  display: inline-block;
-  vertical-align:top;
+    content: "|";
+    color: #606060;
+    display: inline-block;
+    vertical-align: top;
 }
-.menu-main li:last-child:after {content: none;}
+
+.menu-main li:last-child:after {
+    content: none;
+}
+
 .menu-main a {
-  text-decoration: none;
-  font-family: 'Ubuntu Condensed', sans-serif;
-  letter-spacing: 2px;
-  -webkit-text-stroke: 1px black;
-  position: relative;
-  padding-bottom: 20px;
-  margin: 0 34px 0 30px;
-  font-size: 20px;
-  text-transform: uppercase;
-  display: inline-block;
-  transition: color .2s;
-  text-shadow: 10px 5px 10px black, 0 0 2em white;
+    text-decoration: none;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    letter-spacing: 2px;
+    -webkit-text-stroke: 1px black;
+    position: relative;
+    padding-bottom: 20px;
+    margin: 0 34px 0 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: color .2s;
+    text-shadow: 10px 5px 10px black, 0 0 2em white;
 }
-.menu-main a, .menu-main a:visited {color: white;
+
+.menu-main a,
+.menu-main a:visited {
+    color: white;
 }
-.menu-main a.current, .menu-main a:hover{color: #feb386;
- 
+
+.menu-main a.current,
+.menu-main a:hover {
+    color: #feb386;
+
 }
+
 .menu-main a:before,
 .menu-main a:after {
-  content: "";
-  position: absolute;
-  height: 4px;
-  top: auto;
-  right: 50%;
-  bottom: -5px;
-  left: 50%;
-  background: #feb386;
-  transition: .8s;
+    content: "";
+    position: absolute;
+    height: 4px;
+    top: auto;
+    right: 50%;
+    bottom: -5px;
+    left: 50%;
+    background: #feb386;
+    transition: .8s;
 }
-.menu-main a:hover:before, .menu-main .current:before {left: 0;}
-.menu-main a:hover:after, .menu-main .current:after {right: 0;}   
+
+.menu-main a:hover:before,
+.menu-main .current:before {
+    left: 0;
+}
+
+.menu-main a:hover:after,
+.menu-main .current:after {
+    right: 0;
+}
+
 @media (max-width: 600px) {
-.menu-main {padding-top: 0;}
-.menu-main li {display: block;}
-.menu-main li:after {content: none;}
-.menu-main a {
-  padding: 25px 0 20px; 
-  margin: 0 30px;
+    .menu-main {
+        padding-top: 0;
+    }
+    .menu-main li {
+        display: block;
+    }
+    .menu-main li:after {
+        content: none;
+    }
+    .menu-main a {
+        padding: 25px 0 20px;
+        margin: 0 30px;
+    }
 }
-}
-.connection{
+
+.connection {
     display: block;
 }
