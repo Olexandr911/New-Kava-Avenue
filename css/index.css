@@ -1,12 +1,15 @@
 body {
     font-size: 30px;
+    background-image: url('https://previews.123rf.com/images/kotokomi/kotokomi1708/kotokomi170800008/83683605-cafe-pattern-with-doodle-tea-pots-cups-inspirational-quotes-and-desserts-coffee-is-always-a-good-ide.jpg');
+    
 
 }
-
+.bxslider { margin:auto;}
 .wrapper {
-    max-width: 1000px;
+    max-width: 980px;
     margin: 0 auto;
     color: black;
+    overflow: hidden;
 }
 
 .row:after {
@@ -25,7 +28,7 @@ body {
     background-size: cover;
     display: flex;
     height: 200px;
-
+   
 }
 
 .inner-header {
@@ -53,26 +56,26 @@ body {
     top: -220px;
 }
 
-.content {
-    width: 100%;
-}
+
 
 .inner-content {
-    background-color: #ffeee0;
+    background-color: #f4f2ef;
 }
 
 .footer {
     max-width: 1000px;
     margin: 0 auto;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .inner-foter {
     margin: 0 auto;
-    background: #ffeee0;
-    height: 100px;
+    background: black;
+   font-size: 20px;
+    color: white;
+    text-align: center;
 }
-
+   
 h2 {
     text-shadow: 5px 5px 10px black, 0 0 1em grey;
     font-size: 50px;
@@ -80,7 +83,14 @@ h2 {
     color: white;
     text-align: center;
     -webkit-text-stroke: 1px black;
+    
 }
+
+.fon h2 {
+      background-image: url('http://vectorartillustrations.com/wp-content/uploads/2011/05/coffee-pattern-vector1.jpg');
+      background-size: cover;
+}
+
 
 .menu-main {
     list-style: none;
@@ -176,3 +186,36 @@ h2 {
     display: block;
 }
 
+.pictures img {
+width:300px;
+height: 400px;
+margin-left:100px;
+}
+
+#menu {
+    margin-top:30px;
+    
+}
+.main-content {  text-align: center;}
+.bxslider img {
+    height: 576px;
+    width: 1000px;
+}
+.main-content p {
+    padding-left:  40px;
+    
+}
+.main-content li {
+    margin-left:40px;
+}
+.good-morning {
+  display:  inline-block;
+  
+}
+.good-morning img {
+    height: 400px;
+    padding-left: 10px;
+}
+.connection{text-align:center;}
+
+.coffee-menu ul{list-style-type: none;}
