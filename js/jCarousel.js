@@ -1,8 +1,9 @@
-$(function(){
-  $('.bxslider').bxSlider({
-    mode: 'fade',
-    captions: true,
-    slideWidth: 300
-  });
-});
+$('.bxslider').bxSlider({
+  auto: true,
+  autoControls: true,
+  stopAutoOnClick: true,
+  pager: true,
+  slideWidth: 1000,
 
+  
+});
